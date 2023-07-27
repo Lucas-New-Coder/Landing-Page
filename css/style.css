@@ -1,0 +1,96 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+  
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 8px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #00a251;
+    font-size: 20px;
+   }
+
+.logo {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    
+    }
+
+    .header-menu>* {
+        background-color: white;
+        padding: 5px;
+        border-radius: 20px;
+        
+    }
+
+ 
+
+    .header-menu>*:hover
+    {
+        
+        background-color: rgb(64, 255, 182);
+        transform: translateY(-5px);
+        color: #01051b;
+        
+        
+    }
+    
+    .header-menu>* {
+        transition: transform 250ms ease-in-out, background-color 350ms ease-in-out, color 350ms ease-in-out;
+        }
+
+  
+   .hr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    height: 500px;
+    color: white;
+    background-image: url("../images/scar.jpg");
+    background-size: cover;
+   }
+
+   .hr-imagem {
+    background-color: #00a251;
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    background-image: url("../images/scar2.jpg");
+    background-size: cover;
+   }
+
+   .hero-conteudo {
+    display: flex;
+    padding: 35px;
+    justify-content: space-around;
+    border: dotted;
+   }
+
+   .texto {
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    line-height: 30px;
+    
+    
+   }
