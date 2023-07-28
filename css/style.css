@@ -70,6 +70,7 @@ a {
     background-image: url("../images/scar.jpg");
     background-size: cover;
     
+    
    }
 
    .hr-imagem {
@@ -79,6 +80,7 @@ a {
     flex-shrink: 0;
     background-image: url("../images/scar2.jpg");
     background-size: cover;
+    
    }
 
    .hero-conteudo {
@@ -86,7 +88,7 @@ a {
     padding: 35px;
     justify-content: space-around;
     flex: 1;
-    flex-wrap: ;
+    flex-wrap: wrap;
     
     
     
@@ -114,10 +116,123 @@ a {
    }
 
 
+
+
 .inf {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.inf h2 {
+    padding-top: 20px;
+    font-size: 27px;
+}
+
+.inf-img {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: break-word;
+   max-width: 250px;
+   min-width: 0;
+   }
+
+
+   
+.inf-img p {
+    max-width: 150px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 23px;
+   
 }
 
 
+
+.scar-menor1{
+    width: 150px;
+    border: solid;
+    color: #81f0b8;
+    border-radius: 15px;
+    height: 150px;
+    image-resolution: 150px;
+    background-image: url("../images/scar-menor1.jpg");
+    background-size: cover;
+}
+.scar-menor2{
+    width: 150px;
+    border: solid;
+    color: #81f0b8;
+    border-radius: 15px;
+    height: 150px;
+    image-resolution: 150px;
+    background-image: url("../images/scar-menor2.jpg");
+    background-size: cover;
+}
+.scar-menor3{
+    width: 150px;
+    border: solid;
+    color: #81f0b8;
+    border-radius: 15px;
+    height: 150px;
+    image-resolution: 150px;
+    background-image: url("../images/scar-menor3.jpg");
+    background-size: cover;
+}
+.scar-menor4{
+    width: 150px;
+    border: solid;
+    color: #81f0b8;
+    border-radius: 15px;
+    height: 150px;
+    image-resolution: 150px;
+    background-image: url("../images/scar-menor4.jpg");
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+main>*:hover {
+    transform: translateY(-10px);
+    font-weight: bold;
+    
+
+}
+
+main>* {
+    transition: transform 250ms ease-in-out, font-weight 450ms;}
+    
+
+
+.quote {
+    display: flex;
+    background-color: #e6e6e6;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+   }
+
+   .quote-txt {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: end;
+    max-width: 600px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 38px;
+    
+}
+.-scar {
+    font-weight: bold;
+}
